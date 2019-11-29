@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="homeViewController" id="BYZ-38-t0r" customClass="homeViewController" customModule="Christmas_Shooting_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snowbackground" translatesAutoresizingMaskIntoConstraints="NO" id="nOi-Ec-9iW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Christmascuteshooting" translatesAutoresizingMaskIntoConstraints="NO" id="uvR-5t-8Uj">
+                                <rect key="frame" x="0.0" y="240" width="414" height="416"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="416" id="1d6-GA-hXe"/>
+                                    <constraint firstAttribute="width" constant="414" id="u5C-LC-I95"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright ⓒ 2019 Stanley App World All Rights Reserved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ii0-Qb-aXx">
+                                <rect key="frame" x="20" y="845" width="370" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="AI5-dL-RAq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ii0-Qb-aXx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="65s-YU-GUp"/>
+                            <constraint firstItem="nOi-Ec-9iW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BTE-KO-6yS"/>
+                            <constraint firstItem="nOi-Ec-9iW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="FcG-We-mqU"/>
+                            <constraint firstItem="nOi-Ec-9iW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ND8-EL-uhM"/>
+                            <constraint firstAttribute="bottom" secondItem="nOi-Ec-9iW" secondAttribute="bottom" id="QXs-1y-DVI"/>
+                            <constraint firstItem="uvR-5t-8Uj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cRq-y4-NcK"/>
+                            <constraint firstItem="Ii0-Qb-aXx" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="efk-nl-zac"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ii0-Qb-aXx" secondAttribute="trailing" constant="24" id="nYq-Cl-ywF"/>
+                            <constraint firstItem="uvR-5t-8Uj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="o6n-D1-LGW"/>
+                            <constraint firstItem="uvR-5t-8Uj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="196" id="xFR-AD-Ih8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </scene>
+        <!--Role View Controller-->
+        <scene sceneID="ohL-ym-Bp0">
+            <objects>
+                <viewController storyboardIdentifier="roleViewController" modalPresentationStyle="fullScreen" id="AXy-Yf-7n9" customClass="RoleViewController" customModule="Christmas_Shooting_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hy6-dV-PCl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snowbackground" translatesAutoresizingMaskIntoConstraints="NO" id="NHM-Rv-EWj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Role selection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZm-bg-2SA">
+                                <rect key="frame" x="115" y="124" width="184" height="35"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="29"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="santaclaus1" translatesAutoresizingMaskIntoConstraints="NO" id="SNf-vg-ddT">
+                                <rect key="frame" x="87" y="208" width="240" height="204"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="PSc-HM-Syu"/>
+                                    <constraint firstAttribute="height" constant="204" id="hvB-v7-9Pz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="elk" translatesAutoresizingMaskIntoConstraints="NO" id="fdm-8U-hAo">
+                                <rect key="frame" x="87" y="469" width="240" height="204"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="90w-1I-UGS"/>
+                                    <constraint firstAttribute="height" constant="204" id="Y29-fC-Umc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rZm-bg-2SA" firstAttribute="centerX" secondItem="SNf-vg-ddT" secondAttribute="centerX" id="2Ek-Gv-MaP"/>
+                            <constraint firstItem="NHM-Rv-EWj" firstAttribute="top" secondItem="Hy6-dV-PCl" secondAttribute="topMargin" constant="-44" id="40P-YR-BY5"/>
+                            <constraint firstItem="NHM-Rv-EWj" firstAttribute="centerY" secondItem="Hy6-dV-PCl" secondAttribute="centerY" id="8ZN-Tc-erc"/>
+                            <constraint firstItem="rZm-bg-2SA" firstAttribute="centerX" secondItem="NHM-Rv-EWj" secondAttribute="centerX" id="95A-d4-1w8"/>
+                            <constraint firstItem="sD8-oH-e6h" firstAttribute="trailing" secondItem="SNf-vg-ddT" secondAttribute="trailing" constant="87" id="BjI-ui-ci9"/>
+                            <constraint firstItem="SNf-vg-ddT" firstAttribute="leading" secondItem="sD8-oH-e6h" secondAttribute="leading" constant="87" id="HyX-yy-f9q"/>
+                            <constraint firstItem="rZm-bg-2SA" firstAttribute="top" secondItem="sD8-oH-e6h" secondAttribute="top" constant="80" id="K45-F9-zAq"/>
+                            <constraint firstItem="fdm-8U-hAo" firstAttribute="leading" secondItem="sD8-oH-e6h" secondAttribute="leading" constant="87" id="PUk-a8-5Xy"/>
+                            <constraint firstItem="fdm-8U-hAo" firstAttribute="top" secondItem="SNf-vg-ddT" secondAttribute="bottom" constant="57" id="Zza-nM-8Qy"/>
+                            <constraint firstItem="sD8-oH-e6h" firstAttribute="trailing" secondItem="fdm-8U-hAo" secondAttribute="trailing" constant="87" id="dD5-mn-I98"/>
+                            <constraint firstItem="sD8-oH-e6h" firstAttribute="bottom" secondItem="fdm-8U-hAo" secondAttribute="bottom" constant="189" id="rB2-Tb-S2C"/>
+                            <constraint firstItem="NHM-Rv-EWj" firstAttribute="leading" secondItem="sD8-oH-e6h" secondAttribute="leading" id="vhv-KQ-gZT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sD8-oH-e6h"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ya3-Tp-Wx0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="915.94202898550736" y="129.91071428571428"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="OVN-lH-UcV">
+            <objects>
+                <viewController storyboardIdentifier="gameViewController" modalPresentationStyle="fullScreen" id="Brq-wg-UhK" customClass="GameViewController" customModule="Christmas_Shooting_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ih1-2X-UVl" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="XOZ-AB-zMq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZPT-Wj-Efb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4f4-VJ-bSH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1686" y="130"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Christmascuteshooting" width="1290" height="1324"/>
+        <image name="elk" width="442" height="566"/>
+        <image name="santaclaus1" width="500" height="500"/>
+        <image name="snowbackground" width="334" height="688"/>
+    </resources>
+</document>
