@@ -22,6 +22,7 @@
 		758B78A5238D37C600682B85 /* happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 758B78A1238D37C600682B85 /* happy.mp3 */; };
 		758B78A8238D3BB900682B85 /* gun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 758B78A7238D3BB900682B85 /* gun.mp3 */; };
 		75B1BA4A238FC9FD00B9FA7E /* forbell.sks in Resources */ = {isa = PBXBuildFile; fileRef = 75B1BA49238FC9FD00B9FA7E /* forbell.sks */; };
+		75B1BA4C23916FF400B9FA7E /* monsterdead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75B1BA4B23916FF300B9FA7E /* monsterdead.mp3 */; };
 		75F55F02238E74EE005DE1E0 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75F55F01238E74EE005DE1E0 /* background.mp3 */; };
 		75F55F04238E75D4005DE1E0 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F55F03238E75D4005DE1E0 /* homeViewController.swift */; };
 		75F55F07238EABA7005DE1E0 /* snowmotion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 75F55F05238EABA7005DE1E0 /* snowmotion.sks */; };
@@ -48,6 +49,7 @@
 		758B78A1238D37C600682B85 /* happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happy.mp3; sourceTree = "<group>"; };
 		758B78A7238D3BB900682B85 /* gun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gun.mp3; sourceTree = "<group>"; };
 		75B1BA49238FC9FD00B9FA7E /* forbell.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = forbell.sks; sourceTree = "<group>"; };
+		75B1BA4B23916FF300B9FA7E /* monsterdead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monsterdead.mp3; sourceTree = "<group>"; };
 		75F55F01238E74EE005DE1E0 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
 		75F55F03238E75D4005DE1E0 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		75F55F05238EABA7005DE1E0 /* snowmotion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snowmotion.sks; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				75F55F2C238EB96A005DE1E0 /* background1.mp3 */,
 				758B78A1238D37C600682B85 /* happy.mp3 */,
 				758B789F238D37C600682B85 /* sad.mp3 */,
+				75B1BA4B23916FF300B9FA7E /* monsterdead.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				7569FC37238D1115008FAFA6 /* Main.storyboard in Resources */,
 				75B1BA4A238FC9FD00B9FA7E /* forbell.sks in Resources */,
 				758B78A5238D37C600682B85 /* happy.mp3 in Resources */,
+				75B1BA4C23916FF400B9FA7E /* monsterdead.mp3 in Resources */,
 				75F55F07238EABA7005DE1E0 /* snowmotion.sks in Resources */,
 				7532AD4E238F9F6600E962AE /* fireexplosion.sks in Resources */,
 			);

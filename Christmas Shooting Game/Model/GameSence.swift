@@ -10,7 +10,7 @@
 //  鈴鐺炸彈Bell Bumb目前也無法碰撞monster（若碰撞功能解決後，修改程式內容，應該可以成功）
 //  玩家選擇聖誕老人或麋鹿，此功能尚未製作，目前只有聖誕老人可以選。
 //  原訂有按鈕可以選擇bullet自動射擊，目前尚未製作。
-//  由於SpriteKitㄨ功能尚不熟悉，未來繼續努力。
+//  由於SpriteKit功能尚不熟悉，未來繼續努力。
 
 import SpriteKit
 import GameplayKit
@@ -386,6 +386,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate
                 if let monster = firstBody.node as? SKSpriteNode,
                     let bullet = secondBody.node as? SKSpriteNode {
                     bulletDidCollideWithMonster(bullet: bullet, monster: monster)
+                    // 增加怪物死掉的聲音
+                    run(SKAction.playSoundFileNamed("monsterdead.mp3", waitForCompletion: false))
                 }
             }
         // 聖誕老人和怪物的碰撞測試（無法感測到...功能無法出來...Orz)
